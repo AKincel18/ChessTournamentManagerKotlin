@@ -1,0 +1,189 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Chess Tournament Manager</string>
+    <!--PlayersSelection-->
+
+    <string name="available_players_text_view">Dostępni zawodnicy</string>
+    <string name="chosen_players_text_view">Wybrani zawodnicy</string>
+    <string name="add_player_button">Dodaj zawodnika</string>
+    <string name="about_player">Informacje o zawodniku</string>
+    <string name="edit_player">Edytuj zawodnika</string>
+    <string name="remove_player">Usuń zawodnika</string>
+    <string name="move_to_chosen_players_button"><![CDATA[->]]></string>
+    <string name="move_to_available_players_button"><![CDATA[<-]]></string>
+    <string name="config_tournament_button">Konfiguracja turnieju</string>
+    <string name="checked_text_view">Checked Text View</string>
+    <string name="select_all_checkbox">Zaznacz wszystko</string>
+
+    <!--Toast-->
+    <string name="nothing_selected">Nie zaznaczono zawodnika</string>
+    <string name="added_player">Dodano zawodnika</string>
+    <string name="removed_player">Usunięto zawodnika</string>
+    <string name="removed_players">Usunięto zawodników</string>
+    <string name="edited_player">Edytowano zawodnika</string>
+    <string name="not_added_player">Nie dodano zawodnika</string>
+    <string name="not_edit_player">Nie edytowano zawodnika</string>
+
+
+    <!--PlayersSelection-->
+    <string name="name_text_view">Imię</string>
+    <string name="surname_text_view">Nazwisko</string>
+    <string name="date_of_birth_text_view">Data urodzenia</string>
+    <string name="pick_date_text_view">Wprowadź datę</string>
+    <string name="confirm_new_player_button">Zatwierdź</string>
+    <string name="close_button">Wyjdź</string>
+    <string name="polish_ranking_text_view">Ranking polski</string>
+    <string name="international_ranking_text_view">Ranking międzynarodowy</string>
+    <string name="format_date">dd-MM-yyyy</string>
+    <string name="locale">pl</string>
+    <string name="empty_string"></string>
+    <string name="required_fields">Imię oraz nazwisko nie może pozostać puste.</string>
+
+
+    <!--ConfigureTournament-->
+    <string name="pairing_type_text_view">Uszeregowanie zawodników</string>
+    <string name="method_text_view">Metoda przy jednakowych wynikach</string>
+    <string name="system_text_view">Wybór systemu rogrywek</string>
+    <string name="count_of_players_text_view"/>
+    <string name="set_method_text_view">Bucholtz</string>
+    <string name="starting_list_text_view">Lista startowa</string>
+    <string name="config_tournament_text_view">Ustawienia turnieju</string>
+    <string name="players_count_text_view">Ilość zawodników</string>
+    <string name="rounds_number_edit_text">Podaj liczbę rund</string>
+    <string name="start_tournament_button">Rozpocznij turniej</string>
+    <string name="count_of_number_switch">Ręczny wybór liczby rund\t</string>
+    <string name="auto_count_of_rounds">Standardowa liczba rund: %1$d</string>
+    <string name="number_of_rounds">Liczba rund</string>
+    <string name="auto_order_player">1. Ranking międzynarodowy\n2. Ranking polski\n3. Alfabetycznie</string>
+    <string name="comma">,</string>
+    <string name="dot">.</string>
+
+    <string name="name_player_header">Zawodnik</string>
+    <string name="international_ranking_header">Ranking międzynarodowy</string>
+    <string name="polish_ranking_header">Ranking polski</string>
+
+
+    <!--Tournament-->
+    <string name="results">Wyniki</string>
+    <string name="round_count_text_view">Runda %1$d</string>
+    <string name="phase_tournament">%1$s finału</string>
+    <string name="final_round">Finał</string>
+    <string name="white_player_text_view">Gracz 1 (białe)</string>
+    <string name="black_player_text_view">Gracz 2 (czarne)</string>
+    <string name="results_text_view">Wynik</string>
+    <string name="previous_rounds_not_finished">Poprzednie rundy nie zostały skończone</string>
+    <string name="not_finished_first_round">Nie skończono pierwszej rundy</string>
+    <string name="next_round_button">Następna runda</string>
+    <string name="white_won_result">1&#8211;0</string>
+    <string name="draw_result">&#189;&#8211;&#189;</string>
+    <string name="black_won_result">0&#8211;1</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="show_results_button">Pokaż wyniki końcowe</string>
+    <string name="rounds">Rundy</string>
+    <string name="exit_menu">Wyjście</string>
+    <string name="bye">Bye</string>
+
+    <!--RoundResults-->
+    <string name="no_text_view">Lp.</string>
+    <string name="no">%1$d.</string>F
+
+    <!--FinalResults-->
+    <string name="position_text_view">Pozycja</string>
+    <string name="player_name_text_view">Zawodnik</string>
+    <string name="scored_points_text_view">Zdobyte punkty</string>
+    <string name="buchholz_header_text_view">Metoda Buchholza</string>
+    <string name="median_buchholz_header_text_view">Średni Buchholz</string>
+    <string name="format_float">%.1f</string>
+
+    <!--AboutPlayer-->
+    <string name="about_player_title_text_view">Informacje o zawodniku</string>
+
+    <!--messages-->
+    <string name="rounds_number_text_view">Runda %1$d</string>
+    <string name="final_result">Wyniki końcowe</string>
+    <string name="current_results">Wyniki po %1$d rundzie</string>
+    <string name="set_results">Wprowadź wynik</string>
+
+
+    <!--DialogBoxes-->
+
+    <!--Yes/No-->
+    <string name="title_warning">Ostrzeżenie</string>
+    <string name="confirmation_removing_player">ConfirmationRemovingPlayer</string>
+    <string name="about_player_db">AboutPlayerDB</string>
+    <string name="information_warning">Po zamknięciu okna zawodnik nie zostanie zapisany.
+        Czy na pewno chcesz wyjść?
+    </string>
+    <string name="odd_number_players">Nieparzysta liczba zawodników.
+        Kontynuować?
+    </string>
+    <string name="remove_player_title_DB">Czy na pewno chcesz usunąć tego zawodnika?</string>
+    <string name="remove_player_warning">Imię: %1$s\nNazwisko: %2$s\nData urodzenia: %3$s\nRanking polski: %4$s\nRanking
+        międzynarodowy: %5$s
+    </string>
+    <string name="no_rank">Bez rankingu</string>
+    <string name="selected_player_remove">Czy na pewno chcesz usunąć zaznaczonych zawodników?</string>
+    <string name="no_one_selected">Nie wybrano żadnego zawodnika</string>
+    <string name="too_many_player_selected">Zaznaczono więcej niż jednego zawodnika.\nProszę zaznaczyć jedngo zawodnika
+        aby wyświetlić o nim informację.
+    </string>
+    <string name="wrong_rounds_title">Błędna ilość rund</string>
+    <string name="wrong_rounds_message">Dla wybranej liczby zawodników (%1$d):\n\nMinimalna liczba rund to:
+        1\nMaksymalna liczba rund to: %2$d\n\nPodana liczba rund: %3$d
+    </string>
+    <string name="empty_rounds_number">Nie podano ilości rund</string>
+    <string name="too_many_players_title">Za mała liczba zawodników</string>
+    <string name="too_many_players_message">Minimalna liczba zawodników w turnieju wynosi 2.</string>
+
+    <string name="positive_button_warning">Tak</string>
+    <string name="negative_button_warning">Nie</string>
+
+    <!--Error-->
+    <string name="title_error">Błąd</string>
+    <string name="message_error">Wybierz datę</string>
+    <string name="exit_button">OK</string>
+    <string name="no_result_message_error">Nie wprowadzono wszystkich wyników</string>
+
+    <!--MyDatabase-->
+    <string name="database_name">ChessTournamentManager.db</string>
+
+    <!--Intent-->
+    <string name="available_players">availablePlayers</string>
+    <string name="players">players</string>
+    <string name="chosen_system">chosenSystem</string>
+    <string name="player">player</string>
+    <string name="rounds_number">roundsNumber</string>
+    <string name="order">order</string>
+    <string name="place_order">placeOrder</string>
+    <string name="swiss">swiss</string>
+    <string name="current_round">currentRound</string>
+    <string name="go_to_round">goToRound</string>
+    <string name="toast_message">stringMessage</string>
+
+    <!--Bundle-->
+    <string name="title">title</string>
+
+
+    <!--Arrays-->
+    <string-array name="place_order">
+        <item>Metoda Buchholza</item>
+        <item>Średni Buchholz</item>
+    </string-array>
+
+    <string-array name="systems">
+        <item>Szwajcarski</item>
+        <item>Pucharowy</item>
+    </string-array>
+
+    <string-array name="results_array">
+        <item>1&#8211;0</item>
+        <item>&#189;&#8211;&#189;</item>
+        <item>0&#8211;1</item>
+    </string-array>
+
+    <string-array name="results_array_no_draw">
+        <item>1&#8211;0</item>
+        <item>0&#8211;1</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/config_tournament_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:text="@string/config_tournament_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/starting_list_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:text="@string/starting_list_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.43"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_set_system"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/system_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/system_text_view"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+
+                <Spinner
+                    android:id="@+id/system_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>>
+            <LinearLayout
+                android:id="@+id/layout_set_round"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/count_of_number_switch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/count_of_number_switch"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/auto_count_of_rounds"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/auto_count_of_rounds"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/players_count_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/players_count_text_view"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/count_of_players_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/count_of_players_text_view"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_order_player"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/pairing_type_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/pairing_type_text_view"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/auto_order_player"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="19sp" />
+                <!--                <Switch
+                    android:id="@+id/order_place_switch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/pairing_type_text_view"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/methods_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/method_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/method_text_view"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+
+                <Spinner
+                    android:id="@+id/place_order_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+
+            <ListView
+                android:id="@+id/players_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="490dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/layout_border_popup" />
+
+
+            <Button
+                android:id="@+id/start_tournament_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/layout_border_button"
+                android:text="@string/start_tournament_button"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

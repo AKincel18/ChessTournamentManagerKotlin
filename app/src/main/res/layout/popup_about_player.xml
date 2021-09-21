@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="700dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:background="@drawable/layout_border_popup"
+    android:orientation="vertical"
+    tools:context=".activities.AddNewPlayer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/about_player_title_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/about_set_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/about_date_of_birth_text_view"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/date_of_birth_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/about_set_date_of_birth_text_view"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/about_polish_ranking_text_view"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/polish_ranking_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/about_set_polish_ranking_text_view"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/about_international_ranking_text_view"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/international_ranking_text_view"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/about_set_international_ranking_text_view"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

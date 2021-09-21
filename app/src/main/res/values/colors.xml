@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFDEAD</color>
+    <color name="colorPrimaryDark">#F4A460</color>
+    <color name="colorAccent">#a0522d</color>
+
+    <!--medals-->
+    <color name="colorGolden">#FFD700</color>
+    <color name="colorSilver">#aaa9ad</color>
+    <color name="colorBronze">#cd7f32</color>
+
+
+    <color name="winnerColor">#800000</color>
+
+</resources>
